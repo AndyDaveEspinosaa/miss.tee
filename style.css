@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(23, 38, 25, 0.75),rgba(29, 73, 28, 0.75)),url(cauayan/municipal\ hall.jpg);
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+.navbar{
+    width: 85%;
+    margin: auto ;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.homepage{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    border-radius: 20%;
+
+}
+.courses {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.amen{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    color: #fff;
+}
+.history{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(86, 192, 93, 0.598),rgba(25, 88, 38, 0.607)),url(cauayan/municipal\ hall.jpg);
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+
+.Histo {
+   color: #fff;
+   border: solid 5px lightblue;
+   background-color: black;
+}
+.contak {
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+}
+.Box {
+    width: 250 px;
+    box-shadow: 0 4px 8px 0 rgba(233, 151, 231, 0.416), 0 6px 20px 0 rgba(0, 0, 0, 0.729);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40%;
+    padding: 10px 10px 10px 10px;
+}
+.scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll-item {
+    display: inline-block;
+    width: 300px;
+    margin-right: 200px;
+    font-weight: bolder;
+    text-align: centers;
+    
+}
+
+.scroll-item img {
+    width: 100%;
+    height: auto;
+}
